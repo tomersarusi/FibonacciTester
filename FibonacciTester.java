@@ -4,13 +4,12 @@ public class FibonacciTester {
     static FibonacciHeap heap;
 
     public static void main(String[] args) {
-        testRandomHeaps(100, 3000, 1500, 1500);
+        testRandomHeaps(100, 3000, 1000, 1000);
         testKMin();
     }
 
     public static void testHeap(FibonacciHeap fibonacciHeap) {
         heap = fibonacciHeap;
-        /*PrintHeap.printHeapFib(heap);*/
         if (!heap.isEmpty()) {
             checkPrevNext(heap.firstNode);
             checkMin(heap.firstNode);
