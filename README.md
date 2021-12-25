@@ -1,6 +1,8 @@
 # FibonacciTester
 Tester for the FibonacciHeap project.
 
+To use the tester make sure that the FibonacciHeap fields firstNode and minNode are public, and that the HeapNode fields are all public.
+
 Use testRandomHeaps to test randomally generated trees. numOfTests is the total number of randomally generated tests, numOfNodes is the number of nodes to insert in each heap, numOfMinDeletes is the number of deleteMin method calls each test will make, and numOfRandomDeletes is the number of delete method calls with a random input each test will make.
 
 Use testHeap to check a specific FibonacciHeap.
